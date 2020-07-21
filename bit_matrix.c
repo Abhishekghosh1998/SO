@@ -5,6 +5,9 @@
 	(1D array) of bytes and these bytes are allocated in a contiguous 
 	manner. Now using some mathematical calculations we can manipulate a 
 	particular bit within a byte which acts as the entry in the matrix...
+	
+	Moreover the implementation does not depend on the endianness of 
+	processor
 */
 #include<stdio.h>
 #include<math.h>
